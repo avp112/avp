@@ -1,0 +1,13 @@
+<?xml version="1.0"  encoding="ISO-8859-1"?>
+<rss version="2.0">
+  <channel>
+    <title>Online Einsaetze</title>
+    <link>http://www.online-einsaetze.de</link>
+    <description>FME / SIRENE Brandhausen</description>
+    <language>de-de</language>
+    <copyright>Copyright 2008</copyright>
+ 
+    <item><title>Feuerwache2 - 08.03. 23:42 - FEU2 - Kurze Str. 3->Mittelbrand</title><guid isPermaLink="false">http://feeds.online-einsaetze.de/alarm_bh_5994</guid></item>
+
+  </channel>
+</rss>

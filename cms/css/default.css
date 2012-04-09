@@ -1,0 +1,736 @@
+/*      *******************************************
+	* Projekt: Alarmverfuegbarkeit		  *
+	* Datei default.css			  *
+	* Modul "Style"		  *
+	* Standard CSS 			  *
+	* *****************************************
+	* SEBI | 02.10.2011 | 16:00 | 1.0.0	  *	
+        *******************************************/  
+
+ 
+
+a:active, a:link, a:visited
+{
+color: white; text-decoration: none
+}
+
+a:visited:hover
+{
+color: red; text-decoration: none 
+}
+
+body
+{
+	background-image: url(../images/back_top.gif);
+	background-repeat: repeat;
+	background-position: center;
+
+}
+
+/* Knopf z.B. Alarmieren */
+.knopf {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	font-weight: bold;
+	color: #ffd100;
+	background-image: url(../images/back_top.gif);
+	border: 1px solid;
+}
+
+/*Felddefinition (Alarmierungstext)*/
+
+.felder {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	font-weight: bold;
+	color: #ffd100;
+	background-image: url(../images/back_top.gif);
+	background-repeat: repeat;
+	background-color: #6b0300;
+	border: 1px solid ;
+}
+
+
+
+/* Das hier sind die Buttons der LST */
+
+a.buttonlst {
+    background: transparent url(../images/buttons/bg_button_a.gif) no-repeat top right;
+    font: normal 12px arial, sans-serif;
+	font-weight:bold;
+	color: #666!important;
+	text-decoration: none;
+    display: block;
+    float: left;
+    height: 24px;
+    margin-right: 6px;
+    padding-right: 18px; /* sliding doors padding */
+}
+
+a.buttonlst:hover {
+color: #000!important;
+text-decoration: none; 
+}
+
+a.buttonlst span {
+    background: transparent url(../images/buttons/bg_button_div.gif) no-repeat;
+    display: block;
+    line-height: 14px;
+    padding: 5px 0 5px 18px;
+}
+
+a.buttonlst:active {
+    background-position: bottom right;
+    outline: none; /* hide dotted outline in Firefox */
+}
+
+a.buttonlst:active span {
+    background-position: bottom left;
+	color: #000!important;
+    padding: 6px 0 4px 18px; /* push text down 1px */
+
+}
+
+
+/* Das hier sind die roten Buttons der LST */
+
+
+a.buttonlst1 {
+    background: transparent url(../images/buttons/bg_button_a.png) no-repeat top right;
+    font: normal 12px arial, sans-serif;
+	font-weight:bold;
+	color: #FFF!important;
+	text-decoration: none;
+    display: block;
+    float: left;
+    height: 24px;
+    margin-right: 6px;
+    padding-right: 18px; /* sliding doors padding */
+}
+
+a.buttonlst1:hover {
+color: #000!important;
+text-decoration: none; 
+}
+
+a.buttonlst1 span {
+    background: transparent url(../images/buttons/bg_button_div.png) no-repeat;
+    display: block;
+    line-height: 14px;
+    padding: 5px 0 5px 18px;
+}
+
+a.buttonlst1:active {
+    background-position: bottom right;
+    outline: none; /* hide dotted outline in Firefox */
+}
+
+a.buttonlst1:active span {
+    background-position: bottom left;
+	color: #000!important;
+    padding: 6px 0 4px 18px; /* push text down 1px */
+
+}
+
+/* Das hier sind die blauen Buttons der LST */
+
+
+a.buttonlst2 {
+    background: transparent url(../images/buttons/bg_bl_button_a.png) no-repeat top right;
+    font: normal 12px arial, sans-serif;
+	font-weight:bold;
+	color: #FFF!important;
+	text-decoration: none;
+    display: block;
+    float: left;
+    height: 24px;
+    margin-right: 6px;
+    padding-right: 18px; /* sliding doors padding */
+}
+
+a.buttonlst2:hover {
+color: #000!important;
+text-decoration: none; 
+}
+
+a.buttonlst2 span {
+    background: transparent url(../images/buttons/bg_bl_button_div.png) no-repeat;
+    display: block;
+    line-height: 14px;
+    padding: 5px 0 5px 18px;
+}
+
+a.buttonlst2:active {
+    background-position: bottom right;
+    outline: none; /* hide dotted outline in Firefox */
+}
+
+a.buttonlst2:active span {
+    background-position: bottom left;
+	color: #000!important;
+    padding: 6px 0 4px 18px; /* push text down 1px */
+
+}
+
+/* SUBMIT Das hier sind die blauen Buttons der LST */
+
+
+.buttonlst2 {
+    background: transparent url(../images/buttons/bg_bl_button_a.png) no-repeat top right;
+    font: normal 12px arial, sans-serif;
+	font-weight:bold;
+	color: #FFF!important;
+	text-decoration: none;
+    display: block;
+    float: left;
+    height: 24px;
+    margin-right: 6px;
+    padding-right: 18px; /* sliding doors padding */
+}
+
+.buttonlst2:hover {
+color: #000!important;
+text-decoration: none; 
+}
+
+.buttonlst2 span {
+    background: transparent url(../images/buttons/bg_bl_button_div.png) no-repeat;
+    display: block;
+    line-height: 14px;
+    padding: 5px 0 5px 18px;
+}
+
+.buttonlst2:active {
+    background-position: bottom right;
+    outline: none; /* hide dotted outline in Firefox */
+}
+
+.buttonlst2:active span {
+    background-position: bottom left;
+	color: #000!important;
+    padding: 6px 0 4px 18px; /* push text down 1px */
+
+}
+
+/* Das hier sind die gruenen Buttons der LST */
+
+
+a.buttonlst3 {
+    background: transparent url(../images/buttons/bg_gr_button_a.png) no-repeat top right;
+    font: normal 12px arial, sans-serif;
+	font-weight:bold;
+	color: #FFF!important;
+	text-decoration: none;
+    display: block;
+    float: left;
+    height: 24px;
+    margin-right: 6px;
+    padding-right: 18px; /* sliding doors padding */
+}
+
+a.buttonlst3:hover {
+color: #000!important;
+text-decoration: none; 
+}
+
+a.buttonlst3 span {
+    background: transparent url(../images/buttons/bg_gr_button_div.png) no-repeat;
+    display: block;
+    line-height: 14px;
+    padding: 5px 0 5px 18px;
+}
+
+a.buttonlst3:active {
+    background-position: bottom right;
+    outline: none; /* hide dotted outline in Firefox */
+}
+
+a.buttonlst3:active span {
+    background-position: bottom left;
+	color: #000!important;
+    padding: 6px 0 4px 18px; /* push text down 1px */
+
+}
+
+
+
+
+/* Das hier sind die gruenen Buttons der LST */
+
+
+a.buttonlst4 {
+    background: transparent url(../images/buttons/bg_y_button_a.png) no-repeat top right;
+    font: normal 12px arial, sans-serif;
+	font-weight:bold;
+	color: #FFF!important;
+	text-decoration: none;
+    display: block;
+    float: left;
+    height: 24px;
+    margin-right: 6px;
+    padding-right: 18px; /* sliding doors padding */
+}
+
+a.buttonlst4:hover {
+color: #000!important;
+text-decoration: none; 
+}
+
+a.buttonlst4 span {
+    background: transparent url(../images/buttons/bg_y_button_div.png) no-repeat;
+    display: block;
+    line-height: 14px;
+    padding: 5px 0 5px 18px;
+}
+
+a.buttonlst4:active {
+    background-position: bottom right;
+    outline: none; /* hide dotted outline in Firefox */
+}
+
+a.buttonlst4:active span {
+    background-position: bottom left;
+	color: #000!important;
+    padding: 6px 0 4px 18px; /* push text down 1px */
+
+}
+
+/* Das hier sind die gruenen Buttons der LST */
+
+
+a.buttonlst5 {
+    background: transparent url(../images/buttons/bg_dbl_button_a.png) no-repeat top right;
+    font: normal 12px arial, sans-serif;
+	font-weight:bold;
+	color: #FFF!important;
+	text-decoration: none;
+    display: block;
+    float: left;
+    height: 24px;
+    margin-right: 6px;
+    padding-right: 18px; /* sliding doors padding */
+}
+
+a.buttonlst5:hover {
+color: #000!important;
+text-decoration: none; 
+}
+
+a.buttonlst5 span {
+    background: transparent url(../images/buttons/bg_dbl_button_div.png) no-repeat;
+    display: block;
+    line-height: 14px;
+    padding: 5px 0 5px 18px;
+}
+
+a.buttonlst5:active {
+    background-position: bottom right;
+    outline: none; /* hide dotted outline in Firefox */
+}
+
+a.buttonlst5:active span {
+    background-position: bottom left;
+	color: #000!important;
+    padding: 6px 0 4px 18px; /* push text down 1px */
+
+}
+
+/* Das hier sind die gruenen Buttons der LST */
+
+
+a.buttonlst6 {
+    background: transparent url(../images/buttons/bg_dgr_button_a.png) no-repeat top right;
+    font: normal 12px arial, sans-serif;
+	font-weight:bold;
+	color: #FFF!important;
+	text-decoration: none;
+    display: block;
+    float: left;
+    height: 24px;
+    margin-right: 6px;
+    padding-right: 18px; /* sliding doors padding */
+}
+
+a.buttonlst6:hover {
+color: #000!important;
+text-decoration: none; 
+}
+
+a.buttonlst6 span {
+    background: transparent url(../images/buttons/bg_dgr_button_div.png) no-repeat;
+    display: block;
+    line-height: 14px;
+    padding: 5px 0 5px 18px;
+}
+
+a.buttonlst6:active {
+    background-position: bottom right;
+    outline: none; /* hide dotted outline in Firefox */
+}
+
+a.buttonlst6:active span {
+    background-position: bottom left;
+	color: #000!important;
+    padding: 6px 0 4px 18px; /* push text down 1px */
+
+}
+
+/* Das hier sind die gruenen Buttons der LST */
+
+
+a.buttonlst7 {
+    background: transparent url(../images/buttons/bg_hbl_button_a.png) no-repeat top right;
+    font: normal 12px arial, sans-serif;
+	font-weight:bold;
+	color: #FFF!important;
+	text-decoration: none;
+    display: block;
+    float: left;
+    height: 24px;
+    margin-right: 6px;
+    padding-right: 18px; /* sliding doors padding */
+}
+
+a.buttonlst7:hover {
+color: #000!important;
+text-decoration: none; 
+}
+
+a.buttonlst7 span {
+    background: transparent url(../images/buttons/bg_hbl_button_div.png) no-repeat;
+    display: block;
+    line-height: 14px;
+    padding: 5px 0 5px 18px;
+}
+
+a.buttonlst7:active {
+    background-position: bottom right;
+    outline: none; /* hide dotted outline in Firefox */
+}
+
+a.buttonlst7:active span {
+    background-position: bottom left;
+	color: #000!important;
+    padding: 6px 0 4px 18px; /* push text down 1px */
+
+}
+
+/* Das hier sind die gruenen Buttons der LST */
+
+
+a.buttonlst7 {
+    background: transparent url(../images/buttons/bg_or_button_a.png) no-repeat top right;
+    font: normal 12px arial, sans-serif;
+	font-weight:bold;
+	color: #FFF!important;
+	text-decoration: none;
+    display: block;
+    float: left;
+    height: 24px;
+    margin-right: 6px;
+    padding-right: 18px; /* sliding doors padding */
+}
+
+a.buttonlst7:hover {
+color: #000!important;
+text-decoration: none; 
+}
+
+a.buttonlst7 span {
+    background: transparent url(../images/buttons/bg_or_button_div.png) no-repeat;
+    display: block;
+    line-height: 14px;
+    padding: 5px 0 5px 18px;
+}
+
+a.buttonlst7:active {
+    background-position: bottom right;
+    outline: none; /* hide dotted outline in Firefox */
+}
+
+a.buttonlst7:active span {
+    background-position: bottom left;
+	color: #000!important;
+    padding: 6px 0 4px 18px; /* push text down 1px */
+
+}
+
+/* Das hier sind die gruenen Buttons der LST */
+
+
+a.buttonlst8 {
+    background: transparent url(../images/buttons/bg_tu_button_a.png) no-repeat top right;
+    font: normal 12px arial, sans-serif;
+	font-weight:bold;
+	color: #FFF!important;
+	text-decoration: none;
+    display: block;
+    float: left;
+    height: 24px;
+    margin-right: 6px;
+    padding-right: 18px; /* sliding doors padding */
+}
+
+a.buttonlst8:hover {
+color: #000!important;
+text-decoration: none; 
+}
+
+a.buttonlst8 span {
+    background: transparent url(../images/buttons/bg_tu_button_div.png) no-repeat;
+    display: block;
+    line-height: 14px;
+    padding: 5px 0 5px 18px;
+}
+
+a.buttonlst8:active {
+    background-position: bottom right;
+    outline: none; /* hide dotted outline in Firefox */
+}
+
+a.buttonlst8:active span {
+    background-position: bottom left;
+	color: #000!important;
+    padding: 6px 0 4px 18px; /* push text down 1px */
+
+}
+
+
+
+a.buttonn {
+    background: transparent url(../images/buttons/knopf_0_ungedrueckt.gif) no-repeat top right;
+    font: normal 20px arial, sans-serif;
+	color: #FFF!important;
+	text-decoration: none;
+    display: block;
+    float: left;
+    height: 34px;
+    margin-right: 0px;
+    padding-right: 18px; /* sliding doors padding */
+}
+
+a.buttonn:hover {
+color: #000!important;
+text-decoration: none;
+}
+
+a.buttonn span {
+    background: transparent url(../images/buttons/knopf_0_ungedrueckt.gif) no-repeat;
+    display: block;
+    line-height: 34px;
+    padding: 0px 0 0px 18px;
+}
+
+a.buttonn:active {
+    background-position: bottom right;
+    outline: none; /* hide dotted outline in Firefox */
+}
+
+a.buttonn:active span {
+    background-position: bottom left;
+	color: #FFF!important;
+    padding: 0px 0 0px 18px; /* push text down 1px */
+}
+
+a.buttons {
+    background: transparent url(../images/buttons/knopf_ungedrueckt.gif) no-repeat top right;
+    font: normal 25px arial, sans-serif;
+	color: #000!important;
+	text-decoration: none;
+    display: block;
+    float: left;
+    height: 20px;
+    margin-right: 0px;
+    padding-right: 18px; /* sliding doors padding */
+}
+
+a.buttons:hover {
+color: #000!important;
+text-decoration: none;
+}
+
+a.buttons span {
+    background: transparent url(../images/buttons/knopf_ungedrueckt.gif) no-repeat;
+    display: block;
+    line-height: 25px;
+    padding: 0px 0 0px 18px;
+}
+
+a.buttons:active {
+    background-position: bottom right;
+    outline: none; /* hide dotted outline in Firefox */
+}
+
+a.buttons:active span {
+    background-position: bottom left;
+	color: #000!important;
+    padding: 0px 0 0px 0px; /* push text down 1px */
+}
+
+a.buttony {
+    background: transparent url(../images/buttons/knopf_gedrueckt.gif) no-repeat top right;
+    font: normal 20px arial, sans-serif;
+	color: #000!important;
+	text-decoration: none;
+    display: block;
+    float: left;
+    height: 25px;
+    margin-right: 0px;
+    padding-right: 0px; /* sliding doors padding */
+}
+
+a.buttony:hover {
+color: #000!important;
+text-decoration: none;
+}
+
+a.buttony span {
+    background: transparent url(../images/buttons/knopf_gedrueckt.gif) no-repeat;
+    display: block;
+    line-height: 20px;
+    padding: 0px 0 0px 0px;
+}
+
+a.buttony:active {
+    background-position: bottom right;
+    outline: none; /* hide dotted outline in Firefox */
+}
+
+a.buttony:active span {
+    background-position: bottom left;
+	color: #000!important;
+    padding: 0px 0 0px 18px; /* push text down 1px */
+}
+
+.clear { /* generic container (i.e. div) for floating buttons */
+    overflow: hidden;
+    width: 100%;
+}
+
+/********************************* Hier fangen die Farbigen Schriften an *********************************/
+
+
+
+           /* Farben normale Schrift */
+
+.weiss {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	font-weight: normal;
+	color: #FFFFFF;
+}
+
+.gelb {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	font-weight: normal;
+	color: #FFFF00;
+}
+
+.gruen {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	font-weight: normal;
+	color: #00FF00;
+}
+
+.schwarz {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	font-weight: normal;
+	color: #000000;
+}
+
+           /* Farben FETTE Schrift */
+
+.weissfett {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	font-weight: bold;
+	color: #FFFFFF;
+}
+
+.gelbfett {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	font-weight: bold;
+	color: #FFFF00;
+}
+
+.gruenfett {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	font-weight: bold;
+	color: #00FF00;
+}
+
+.schwarzfett {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	font-weight: bold;
+	color: #000000;
+}
+
+
+           /* Farbige normale �berschriften  */
+.usweiss {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 20px;
+	font-weight: normal;
+	color: #FFFFFF;
+}
+
+.usgelb {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 20px;
+	font-weight: normal;
+	color: #FFFF00;
+}
+
+.usgruen {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 20px;
+	font-weight: normal;
+	color: #00FF00;
+}
+
+.usschwarz {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 20px;
+	font-weight: normal;
+	color: #000000;
+}
+
+
+
+           /* Farbige FETTE �berschriften  */
+
+.usweissfett {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 20px;
+	font-weight: bold;
+	color: #FFFFFF;
+}
+
+.usgelbfett {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 20px;
+	font-weight: bold;
+	color: #FFFF00;
+}
+
+.usgruenfett {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 20px;
+	font-weight: bold;
+	color: #00FF00;
+}
+
+.usschwarzfett {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 20px;
+	font-weight: bold;
+	color: #000000;
+}
+
+/********************************* Hier enden die Farbigen Schriften *********************************/

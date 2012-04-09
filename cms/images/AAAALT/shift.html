@@ -1,0 +1,47 @@
+<html>
+<head>
+<script>
+// Copyright: Mario Rudloff - IK05 - BA Eisenach :P
+// DO    NOT    REMOVE!!! xD
+// zu übergeben: zeiger auf die Select-Boxen (Quelle , Ziel)
+function shiftBox(pSrc,pTrg)
+{
+  var aNewOptions = new Array();
+  // wir gehen von hinten durch weil das array
+  // in der schleife verändert wird.
+  // so bleiben die idezies erhalten
+  for(var i = pSrc.options.length-1; i>=0;i--)
+  {
+     if(pSrc.options[i].selected==true)
+     {
+        // Option kopieren...
+        aNewOptions[aNewOptions.length]= new Option(pSrc.options[i].text, pSrc.options[i].value, false, true);
+        // ... und danach löschen
+        pSrc.options[i] = null;
+     }
+  }
+
+  for(var i=0; i<aNewOptions.length;i++)
+  {
+     pTrg.options[pTrg.options.length]=aNewOptions[i];
+  }
+}
+</script>
+</head>
+<body>
+<form name="testform">
+  <select name="a" size="5" multiple >
+     <option value="1">Opt 1</option>
+     <option value="2">Opt 2</option>
+     <option value="3">Opt 3</option>
+     <option value="4">Opt 4</option>
+
+     <option value="5">Opt 5</option>
+  </select>
+  <select name="b" size="5" multiple >
+  </select>
+  <a href="javascript:shiftBox(document.testform.a,document.testform.b);">&gt;&gt;&gt;</a>
+  <a href="javascript:shiftBox(document.testform.b,document.testform.a);">&lt;&lt;&lt;</a>
+</form>
+</body>
+</html>

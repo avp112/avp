@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<klip>
+  <owner>
+    <author>Sebastian Hahn</author>
+    <copyright>Copyright 2008</copyright>
+    <email>sebi@online-einsaetze.de</email>
+    <web>http://www.online-einsaetze.de</web>
+  </owner>
+
+  <identity>
+    <title>Online-Einsaetze Rettungsdienst SEG</title>
+    <uniqueid></uniqueid>
+    <version>2</version>
+    <lastmodified>2008-03-05</lastmodified>
+    <description>Brandhausen Alarmierung Rettungsdienst SEG</description>
+    <keywords>Online Einsaetze Brandhausen</keywords>
+  </identity>
+
+  <locations>
+    <contentsource>http://leitstelle.online-einsaetze.de/alarm_bh_seg.xml</contentsource>
+    <icon>http://www.online-einsaetze.de/img/kleiner_banner.png</icon>
+    <banner>http://www.online-einsaetze.de/img/oe_top_1.png</banner>
+    <kliplocation></kliplocation>
+    <help></help>
+    <defaultlink>http://www.online-einsaetze.de</defaultlink>
+  </locations>
+
+  <setup>
+    <reporting>true</reporting>
+    <refresh>1</refresh>
+    <language>de</language>
+    <country>DE</country>
+    <referer></referer>
+    <codepage>utf-8</codepage>
+  </setup>
+
+  <messages>
+    <loading>Zur Zeit keine Alarme</loading>
+    <nodata></nodata>
+  </messages>
+
+  
+</klip>

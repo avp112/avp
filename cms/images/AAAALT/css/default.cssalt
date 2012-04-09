@@ -1,0 +1,414 @@
+a:active, a:link, a:visited
+{
+color: white; text-decoration: none
+}
+
+a:bb:hover, a:visited:hover
+{
+color: red; text-decoration: none
+}
+
+body
+{
+	scrollbar-face-background: #000000;
+	scrollbar-face-color: #333333;
+	scrollbar-shadow-color: #000000;
+	scrollbar-highlight-color: #ffffff;
+	scrollbar-3dlight-color: #000055;
+	scrollbar-darkshadow-color: #525552;
+	scrollbar-track-color: #000000;
+	scrollbar-arrow-color: #FFFFFF;	
+	background-color: #707070;
+	background-repeat: no-repeat;
+	background-position: center top;
+	OVERFLOW: scroll;
+	OVERFLOW-X: hidden
+}
+
+.headerweiss1 {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 24px;
+	font-style: normal;
+	font-weight: bolder;
+	color: #FFFFFF;
+	text-decoration: underline;
+}
+
+.weissfett {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	font-weight: bold;
+	color: #FFFFFF;
+}
+.schwarzfett {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	font-weight: bold;
+	color: #000000;
+}
+.weissfett2 {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 10px;
+	font-weight: bold;
+	color: #FFFFFF;
+}
+
+.gelb {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	color: ffd100;
+	font-weight: bold;
+}
+table{
+	border-collapse:collapse;
+	border: 3px solid #FFFF00;
+	font-size: 14px; color: #FFFF00;
+}
+
+th{
+	border: 1px solid #FFFF00;
+	Font-weight: bold;
+	color: #FFFF00;
+}
+
+td{
+	border: 1px solid #FFFF00;
+}
+
+.knopf {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	font-weight: bold;
+	color: ffd100;
+	background-color: #6b0300;
+	border: 1px solid;
+}
+
+.felder {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	font-weight: bold;
+	color: #FFFFFF;
+	background-image: url(images/border/kl-m.gif);
+	background-repeat: repeat;
+	background-color: #333333;
+	border: 1px solid #666666;
+}
+
+.tabunten {
+	background-repeat: repeat-x;
+	background-position: bottom;
+}
+
+.red {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	font-weight: bold;
+	color: #FF0000;
+}
+.green {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	font-weight: bold;
+	color: #00FF00;
+}
+.blue {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	font-weight: bold;
+	color: #0000FF;
+}
+.gruenfett {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	font-weight: bold;
+	color: #00FF00;
+}
+.gelbfett {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	font-weight: bold;
+	color: #FFFF00;
+}
+.hellgelbfett {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	font-weight: bold;
+	color: #FFFF97;
+}
+.greyname {
+	COLOR: #9d9d9d
+}
+.whitename {
+	COLOR: #ffffff
+}
+.greenname {
+	COLOR: #1eff00
+}
+.greentext {
+	COLOR: #1eff00
+}
+.itemeffectlink {
+	COLOR: #1eff00
+}
+.bluename {
+	COLOR: #0070dd
+}
+.purplename {
+	COLOR: #a434ee
+}
+.orangename {
+	COLOR: #d17c22
+}
+.redname {
+	COLOR: #ff0000
+}
+.goldtext {
+	COLOR: #ffd200
+}
+.yellowname {
+	COLOR: yellow
+}
+
+IMG {
+	BEHAVIOR: url("pngbehavior.htc")
+}
+.mainnav {
+	FONT-WEIGHT: bold; FONT-SIZE: 11px; COLOR: #ffffff; FONT-FAMILY: arial
+}
+.navpointer {
+	COLOR: #511378
+}
+#navhead {
+	PADDING-LEFT: 5px; FONT-WEIGHT: bold; FONT-SIZE: 14px
+}
+SPAN.item {
+	FONT-WEIGHT: bold
+}
+.tooltip SPAN.q1 {
+	COLOR: #ffffff
+}
+.tooltip_wrap SPAN.q1 {
+	COLOR: #ffffff
+}
+.tooltip SPAN.q2 {
+	COLOR: #1eff00
+}
+.tooltip_wrap SPAN.q2 {
+	COLOR: #1eff00
+}
+.itemdesc {
+	COLOR: #ff9900
+}
+.tooltip_wrap .itemdesc {
+	COLOR: #ffd200
+}
+.itemsocket {
+	COLOR: #aaaaaa
+}
+.itemspells {
+	COLOR: #009900
+}
+.bonus {
+	COLOR: #009900
+}
+.tooltip_wrap .itemspells {
+	COLOR: #1eff00
+}
+.tooltip_wrap .bonus {
+	COLOR: #1eff00
+}
+.tooltip .itemspells {
+	COLOR: #1eff00
+}
+.tooltip .bonus {
+	COLOR: #1eff00
+}
+.tooltip_wrap {
+	BORDER-RIGHT: #999999 1px solid; PADDING-RIGHT: 5px; BORDER-TOP: #999999 1px solid; PADDING-LEFT: 5px; PADDING-BOTTOM: 5px; OVERFLOW: hidden; BORDER-LEFT: #999999 1px solid; WIDTH: 300px; COLOR: #fff; PADDING-TOP: 5px; BORDER-BOTTOM: #999999 1px solid; BACKGROUND-COLOR: #000000
+}
+.tooltip {
+	BORDER-RIGHT: #2e2e2e 1px solid; PADDING-RIGHT: 5px; BORDER-TOP: #2e2e2e 1px solid; DISPLAY: none; PADDING-LEFT: 5px; PADDING-BOTTOM: 5px; MARGIN: 5px; OVERFLOW: hidden; BORDER-LEFT: #2e2e2e 1px solid; COLOR: #fff; PADDING-TOP: 5px; BORDER-BOTTOM: #2e2e2e 1px solid; POSITION: relative; BACKGROUND-COLOR: #1b1b1b
+}
+DIV.tooltip {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; PADDING-BOTTOM: 0px; MARGIN: 0px; PADDING-TOP: 0px
+}
+
+.q0 {
+	COLOR: #9d9d9d
+}
+.q1 {
+	COLOR: #000000
+}
+.q2 {
+	COLOR: #009900
+}
+.q3 {
+	COLOR: #0070dd
+}
+.q4 {
+	COLOR: #9f3fff
+}
+.q5 {
+	COLOR: #ff8400
+}
+.q6 {
+	COLOR: #ff0000
+}
+.clear { /* generic container (i.e. div) for floating buttons */
+    overflow: hidden;
+    width: 100%;
+}
+
+a.buttonn {
+    background: transparent url(images/knopf_0_ungedrueckt.gif) no-repeat top right;
+    font: normal 20px arial, sans-serif;
+	color: #FFF!important;
+	text-decoration: none;
+    display: block;
+    float: left;
+    height: 34px;
+    margin-right: 0px;
+    padding-right: 18px; /* sliding doors padding */
+}
+
+a.buttonn:hover {
+color: #000!important;
+text-decoration: none;
+}
+
+a.buttonn span {
+    background: transparent url(images/knopf_0_ungedrueckt.gif) no-repeat;
+    display: block;
+    line-height: 34px;
+    padding: 0px 0 0px 18px;
+}
+
+a.buttonn:active {
+    background-position: bottom right;
+    outline: none; /* hide dotted outline in Firefox */
+}
+
+a.buttonn:active span {
+    background-position: bottom left;
+	color: #FFF!important;
+    padding: 0px 0 0px 18px; /* push text down 1px */
+}
+
+a.buttons {
+    background: transparent url(images/knopf_ungedrueckt.gif) no-repeat top right;
+    font: normal 20px arial, sans-serif;
+	color: #000!important;
+	text-decoration: none;
+    display: block;
+    float: left;
+    height: 34px;
+    margin-right: 0px;
+    padding-right: 18px; /* sliding doors padding */
+}
+
+a.buttons:hover {
+color: #000!important;
+text-decoration: none;
+}
+
+a.buttons span {
+    background: transparent url(images/knopf_ungedrueckt.gif) no-repeat;
+    display: block;
+    line-height: 34px;
+    padding: 0px 0 0px 18px;
+}
+
+a.buttons:active {
+    background-position: bottom right;
+    outline: none; /* hide dotted outline in Firefox */
+}
+
+a.buttons:active span {
+    background-position: bottom left;
+	color: #000!important;
+    padding: 0px 0 0px 18px; /* push text down 1px */
+}
+
+a.buttony {
+    background: transparent url(images/knopf_gedrueckt.gif) no-repeat top right;
+    font: normal 20px arial, sans-serif;
+	color: #000!important;
+	text-decoration: none;
+    display: block;
+    float: left;
+    height: 34px;
+    margin-right: 0px;
+    padding-right: 18px; /* sliding doors padding */
+}
+
+a.buttony:hover {
+color: #000!important;
+text-decoration: none;
+}
+
+a.buttony span {
+    background: transparent url(images/knopf_gedrueckt.gif) no-repeat;
+    display: block;
+    line-height: 34px;
+    padding: 0px 0 0px 18px;
+}
+
+a.buttony:active {
+    background-position: bottom right;
+    outline: none; /* hide dotted outline in Firefox */
+}
+
+a.buttony:active span {
+    background-position: bottom left;
+	color: #000!important;
+    padding: 0px 0 0px 18px; /* push text down 1px */
+}
+
+.clear { /* generic container (i.e. div) for floating buttons */
+    overflow: hidden;
+    width: 100%;
+}
+
+a.buttonlst {
+    background: transparent url(../seiten/Bilder/bg_button_a.gif) no-repeat top right;
+    font: normal 12px arial, sans-serif;
+	color: #666!important;
+	text-decoration: none;
+    display: block;
+    float: left;
+    height: 24px;
+    margin-right: 6px;
+    padding-right: 18px; /* sliding doors padding */
+}
+
+a.buttonlst:hover {
+color: #000!important;
+text-decoration: none;
+}
+
+a.buttonlst span {
+    background: transparent url(../seiten/Bilder/bg_button_div.gif) no-repeat;
+    display: block;
+    line-height: 14px;
+    padding: 5px 0 5px 18px;
+}
+
+a.buttonlst:active {
+    background-position: bottom right;
+    outline: none; /* hide dotted outline in Firefox */
+}
+
+a.buttonlst:active span {
+    background-position: bottom left;
+	color: #000!important;
+    padding: 6px 0 4px 18px; /* push text down 1px */
+}
+
+
+
+
+
+
+
+

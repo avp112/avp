@@ -1,0 +1,13 @@
+<?xml version="1.0"  encoding="ISO-8859-1"?>
+<rss version="2.0">
+  <channel>
+    <title>Online Einsaetze</title>
+    <link>http://www.online-einsaetze.de</link>
+    <description>FME / SIRENE Brandhausen</description>
+    <language>de-de</language>
+    <copyright>Copyright 2008</copyright>
+ 
+    <item><title>Feuerwache2 - 13.04. 14:45 - TH1 - Baum auf Straße, Wilhelmshafener-Str. -Einsatznummer: 343</title><guid isPermaLink="false">http://feeds.online-einsaetze.de/alarm_bh_7272</guid></item>
+
+  </channel>
+</rss>

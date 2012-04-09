@@ -1,0 +1,14 @@
+<?xml version="1.0"  encoding="ISO-8859-1"?>
+<rss version="2.0">
+  <channel>
+    <title>Online Einsaetze</title>
+    <link>http://www.virtuelle-feuerwehr.de</link>
+    <description>FME / SIRENE Brandhausen</description>
+    <language>de-de</language>
+    <copyright>Copyright 2008</copyright>
+<item><title>Virtuelle Feuerwehr / Online-einsaetze.de uebernimmt virtuelle-feuerwehr.de </title><guid isPermaLink="false">http://feeds.online-einsaetze.de/alarm_bh_0001</guid></item>
+    <item><title>Virtuelle Feuerwehr / Online-einsaetze.de ist wieder erreichbar unter http://www.online-einsaetze.de </title><guid isPermaLink="false">http://feeds.online-einsaetze.de/alarm_bh_0002</guid></item>
+    <item><title>Virtuelle Feuerwehr / Online-einsaetze.de ist zukuenftig auch wieder unter http://virtuelle-feuerwehr.de zu erreichen </title><guid isPermaLink="false">http://feeds.online-einsaetze.de/alarm_bh_0003</guid></item>
+
+  </channel>
+</rss>

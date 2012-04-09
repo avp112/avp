@@ -1,0 +1,114 @@
+body{
+    font-family: verdana;
+    font-size: 10px;
+    cursor: default;
+    margin: 0px;
+    padding: 0px;
+}
+
+#Connect{
+    width: 100px;
+    height: 16px;
+    background: url("images/icons/ts2_connect_normal.png");
+    float: left;
+}
+
+#Connect:hover{
+    width: 100px;
+    height: 16px;
+    background: url("images/icons/ts2_connect_hover.png");
+    float: left;
+}
+
+#Content{
+    float: left;
+}
+
+#Info{
+    padding: 2px;
+    position: absolute;
+    display: none;
+    background: url("images/layout/info_background.png");
+    overflow: hidden;
+}
+
+.ContextMenu{
+    width: 200px;
+    position: absolute;
+    border: 1px solid #979797;
+    background: #f0f0f0;
+    z-index: 10;
+    display: none;
+}
+
+.ContextMenuLinkIcon{
+    width: 16px;
+    height: 16px;
+    display: block;
+    float: left;
+}
+
+.ContextMenuLinkText{
+    padding-top: 1px;
+    padding-bottom: 1px;
+    padding-left: 3px;
+    height: 14px;
+}
+
+.ContextMenuLink{
+    
+}
+
+.ContextMenuLink:hover{
+    background: url("images/layout/line_hover.png");
+}
+
+.player_privs{
+    display: inline;
+}
+
+.info{
+    display: none;
+}
+
+.line{
+    height: 16px;
+    display: block;
+    vertical-align: middle;
+}
+
+.line:hover{
+    background: url("images/layout/line_hover.png");
+}
+
+.icon{
+    float: left;
+}
+
+.title{
+    padding-top: 2px;
+    height: 14px;
+    float: left;
+}
+
+.title_highlight{
+    padding-top: 2px;
+    height: 14px;
+    float: left;
+    font-weight: bold;
+}
+
+.button{
+    text-align: center;
+    width: 100px;
+    padding-top: 2px;
+    height: 14px;
+    color: #ffffff;
+    background: url("images/layout/button_blue_normal.gif");
+    float: left;
+}
+
+.button:hover{
+    color: #000000;
+    background: url("images/layout/button_green_normal.gif");
+}
